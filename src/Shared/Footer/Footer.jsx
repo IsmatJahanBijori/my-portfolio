@@ -10,10 +10,10 @@ const Footer = () => {
             className="px-4 mx-auto text-center text-neutral-600 bg-slate-300 lg:text-left shadow-lg">
             <div
                 className="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-neutral-500 lg:justify-between">
-                <div className="mr-12 hidden lg:block">
+                <div className="ml-40 hidden lg:block">
                     <span>Get connected with me on social networks:</span>
                 </div>
-                <div className="flex justify-center h-5">
+                <div className="flex justify-center h-5 md:mr-40">
 
                     <a href='https://www.facebook.com/profile.php?id=100013334982970' className="mr-6 text-blue-500 ">
                         <FaFacebookF/>
