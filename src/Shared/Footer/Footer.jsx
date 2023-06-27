@@ -33,8 +33,12 @@ const Footer = () => {
             </div>
 
             <div className="mx-6 py-10 text-center md:text-left">
-                <div className="grid-1 grid gap-8 md:grid-cols-2 justify-around">
+                <div className="grid-1 grid gap-8 md:grid-cols-3 justify-around">
                     <div className="uppercase md:pl-48">
+                    <button className='p-5 rounded-lg shadow-xl border border-black bg-[#64CCC5]'><a href="/public/Github.pdf" className='font-bold text-black hover:text-white' download>Download Resume</a></button>
+                    </div>
+
+                    <div className="uppercase">
                         <h6
                             className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
                             Technology
