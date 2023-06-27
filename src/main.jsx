@@ -23,6 +23,8 @@ const router = createBrowserRouter([
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <div className='font-serif'>
     <RouterProvider router={router} />
+    </div>
   </React.StrictMode>,
 )
