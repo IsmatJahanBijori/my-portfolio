@@ -9,27 +9,32 @@ import {
 import Main from './Layout/Main';
 import Home from './components/Home/Home/Home';
 import About from './components/About/About';
+// import Projects from './components/Home/Projects/Projects';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Main/>,
-    children:[
+    element: <Main />,
+    children: [
       {
         path: '/',
-        element: <Home/>
+        element: <Home />
       },
       {
         path: '/about',
-        element: <About/>
+        element: <About />
       },
+      // {
+      //   path: '/projects',
+      //   element: <Projects />
+      // },
     ]
   },
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <div className='font-serif'>
-    <RouterProvider router={router} />
+      <RouterProvider router={router} />
     </div>
   </React.StrictMode>,
 )

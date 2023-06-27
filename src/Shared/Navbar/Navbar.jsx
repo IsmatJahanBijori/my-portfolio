@@ -10,7 +10,7 @@ const Navbar = () => {
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
                         <NavLink to='/'>
-                            <h2 className="text-2xl font-bold">PORTFOLIO</h2>
+                            <h2 className="text-2xl text-[#64CCC5] font-bold">PORTFOLIO</h2>
                         </NavLink>
                         <div className="md:hidden">
                             <button
@@ -18,9 +18,9 @@ const Navbar = () => {
                                 onClick={() => setNavbar(!navbar)}
                             >
                                 {navbar ? (
-                                    <BsMenuUp/>
-                                ) : (
                                     <GiCrossMark/>
+                                ) : (
+                                    <BsMenuUp/>
                                 )}
                             </button>
                         </div>
