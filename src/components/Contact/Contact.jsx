@@ -6,6 +6,7 @@ import { FiLinkedin } from 'react-icons/fi';
 import { BsGithub } from 'react-icons/bs';
 import Lottie from "lottie-react";
 import developer from '../../assets/123606-desktop-and-smartphone-app-development.json'
+import Swal from 'sweetalert2';
 const Contact = () => {
     const form = useRef();
 
@@ -15,7 +16,7 @@ const Contact = () => {
         emailjs.sendForm('service_zffkpbo', 'template_as0nmbk', form.current, '8GUFsBBPnJxztfBAn')
             .then((result) => {
                 console.log(result.text);
-                console.log("msg sent")
+                Swal.fire('Message Sent')
             }, (error) => {
                 console.log(error.text);
             });
