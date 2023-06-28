@@ -32,7 +32,7 @@ const Navbar = () => {
                         }`}
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                            <li className="text-gray-600 hover:text-blue-600 font-semibold">
+                            <li className="text-gray-600 hover:text-blue-800 font-semibold">
                                 <NavLink to="/">Home</NavLink>
                             </li>
                             <li className="text-gray-600 hover:text-blue-600 font-semibold">

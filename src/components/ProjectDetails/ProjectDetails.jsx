@@ -7,9 +7,9 @@ const ProjectDetails = () => {
     }, [])
     return (
         <div className=''>
-            <div className='grid md:gap-10 grid-cols-1 lg:grid-cols-2 mx-10 md:mx-48 my-36'>
+            <div className='grid md:gap-10 grid-cols-1 lg:grid-cols-3 mx-10 md:mx-48 my-36'>
                 {projects.map(project =>
-                    <div className="card w-96 bg-slate-400 shadow-xl">
+                    <div className="card w-72 md:w-96 bg-slate-300 shadow-xl my-12">
                         <figure><img src={project.image} alt="Image" className='p-5 rounded-xl' /></figure>
                         <div className="card-body">
                             <h2 className="card-title">{project.name}</h2>
