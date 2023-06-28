@@ -35,7 +35,7 @@ const Footer = () => {
             <div className="mx-6 py-10 text-center md:text-left">
                 <div className="grid-1 grid gap-8 md:grid-cols-3 justify-around">
                     <div className="uppercase md:pl-48">
-                    <button className='p-5 rounded-lg shadow-xl bg-gradient-to-r from-[#64CCC5] to-[#bcf2ee] border border-black'><a href="/public/Github.pdf" className='font-bold text-black hover:text-white' download>Download Resume</a></button>
+                    <button className='p-5 rounded-lg shadow-xl bg-gradient-to-r from-[#64CCC5] to-[#bcf2ee] border border-black'><a href="/public/Ismat Jahan Bijori Resume.pdf" className='font-bold text-black hover:text-white' download>Download Resume</a></button>
                     </div>
 
                     <div className="uppercase">
