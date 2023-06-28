@@ -1,0 +1,83 @@
+[
+    {
+        "image": "https://i.ibb.co/82W5WKK/assignment2.png",
+        "name": "G3 Architects html css",
+        "features": [
+            "Navbar and Footer",
+            "Banner images and headings",
+            "Working environment images and text",
+            "Facts, sponsors logo"
+        ],
+        "technology": "HTML  |  CSS",
+        "framework":"Bootstrap"
+    },
+    {
+        "image": "https://i.ibb.co/ZMddk64/assignment3.png",
+        "name": "Legal Practice and Justice html css bootstrap",
+        "features": [
+            "Navbar with static routes and Footer",
+            "Banner images and headings over image",
+            "A simple section with images and text",
+            "About people section and using Accordion"
+        ],
+        "technology": "HTML  |  CSS",
+        "framework":"Bootstrap"
+    },
+    {
+        "image": "https://i.ibb.co/ZJq2Hhy/assignment9.png",
+        "name": "Job Explorer",
+        "features": [
+            "Navbar with dynamic routes and Footer",
+            "Banner image and headings on two side",
+            "Job Category list with some logo",
+            "Facts, Sponsors logo"
+        ],
+        "technology": "HTML  |  CSS",
+        "framework":"React JS  |  DaisyUI"
+    },
+    {
+        "image": "https://i.ibb.co/nMZMZ8j/assignment10.png",
+        "name": "Aurora Chef Hunter site",
+        "features": [
+            "Navbar with dynamic routes and Footer",
+            "Banner image and headings",
+            "Six chefs details data",
+            "Featured recipes and reservation section"
+        ],
+        "technology": "HTML  |  CSS",
+        "framework":"React JS  |  Bootstrap  |  Firebase"
+    },
+    {
+        "image": "https://i.ibb.co/qM9NMn2/assignment11.png",
+        "name": "ToyJoy Online Shop",
+        "features": [
+            "Navbar with dynamic routes and Footer",
+            "Banner images and headings over image",
+            "Featured toys details"
+        ],
+        "technology": "HTML  |  CSS",
+        "framework":"React JS  |  Tailwind CSS  |  DaisyUI  |  Firebase  |  MongoDB"
+    },
+    {
+        "image": "https://i.ibb.co/4VJSYNW/assignment12.png",
+        "name": "Lingua Campha Summer Camp",
+        "features": [
+            "Navbar with dynamic routes and Footer",
+            "Banner images with swiper js and headings over image",
+            "Details Info"
+        ],
+        "technology": "HTML  |  CSS",
+        "framework":"React JS  |  Tailwind CSS  |  DaisyUI  |  Firebase  |  MongoDB"
+    },
+    {
+        "image": "https://i.ibb.co/xH2b70S/practise.png",
+        "name": "Restaurant Site",
+        "features": [
+            "Navbar with dynamic routes and Footer",
+            "Banner images with parallax and headings over image",
+            "Featured food menu and testimonials"
+        ],
+        "technology": "HTML  |  CSS",
+        "framework":"React JS  |  Tailwind CSS  |  DaisyUI  |  Firebase  |  MongoDB"
+    }
+]

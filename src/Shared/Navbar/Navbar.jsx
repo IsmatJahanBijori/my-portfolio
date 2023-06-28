@@ -36,7 +36,7 @@ const Navbar = () => {
                                 <NavLink to="/">Home</NavLink>
                             </li>
                             <li className="text-gray-600 hover:text-blue-600 font-semibold">
-                                <NavLink to='/projects'>Projects</NavLink>
+                                <NavLink to='/projectDetails'>Projects</NavLink>
                             </li>
                             <li className="text-gray-600 hover:text-blue-600 font-semibold">
                                 <NavLink to='/about'>About Me</NavLink>

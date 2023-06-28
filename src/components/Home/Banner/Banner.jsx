@@ -14,7 +14,7 @@ const Banner = () => {
                                 <p className="mb-5 text-xl font-medium w-[300px] text-justify">Pave a prosperous journey in web development by honing my expertise in both front-end development. Aspire to craft user-friendly websites and applications that boast seamless functionality with visually appealing design, ultimately providing unparalleled user delight and fueling significant business results for clients.</p>
                             </div>
                             <div className='my-16 md:my-32 md:text-right ml-5 md:mx-20'>
-                                <img src="https://i.ibb.co/7WjWp0s/IMG-20210213-140721.jpg" className='w-[250px] sm:w-[400px]' alt="" />
+                                <img src="https://i.ibb.co/0VWVLMk/IMG-20230628-WA0002.jpg" className='w-[250px] sm:w-[400px]' alt="" />
                             </div>
                         </div>
                     </div>
@@ -26,3 +26,4 @@ const Banner = () => {
 
 export default Banner;
 // <a href="https://ibb.co/0MmM9zH"><img src="https://i.ibb.co/7WjWp0s/IMG-20210213-140721.jpg" alt="IMG-20210213-140721" border="0"></a>
+// <a href="https://ibb.co/sJDJ4wh"><img src="https://i.ibb.co/0VWVLMk/IMG-20230628-WA0002.jpg" alt="IMG-20230628-WA0002" border="0"></a>
