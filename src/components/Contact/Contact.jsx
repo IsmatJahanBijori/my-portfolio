@@ -64,7 +64,7 @@ const Contact = () => {
                         </div>
                         <input className="input input-primary w-full max-w-xs" type="submit" value="Send" />
                     </form>
-                    <div className='w-1/2'>
+                    <div className='w-full md:w-1/2'>
                         <Lottie animationData={developer} loop={true} />
                     </div>
                 </div>
